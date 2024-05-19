@@ -49,6 +49,8 @@ namespace NDPSimconnect
 
         static void Main(string[] args)
         {
+            Console.Title = "NDP SimConnect";
+
             Program prog = new Program();
             prog.Run();
         }
